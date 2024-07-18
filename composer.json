@@ -1,5 +1,5 @@
 {
-    "name":"magento-hackathon/composer-command-integrator",
+    "name":"onestic/composer-command-integrator",
     "description":"module to create binaries and scripts which get executed in context of composer so they are able to access content from the composer.json ",
     "minimum-stability":"dev",
     "type":"library",
@@ -11,7 +11,7 @@
         }
     ],
     "require":{
-        "symfony/console": "~2.5",
+        "symfony/console": "*",
         "composer/composer":"*"
     },
     "require-dev":{
